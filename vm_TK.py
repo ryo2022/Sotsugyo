@@ -977,7 +977,7 @@ class Main:
         self.table.heading(2,text="値")
 
         self.table.column(1,width=80)
-        self.table.column(2,width=30)
+        self.table.column(2,width=35)
 
         self.table.place(x=850,y=17)
 
@@ -1203,9 +1203,9 @@ class Main:
         self.tree.heading(2,text="com")
         self.tree.heading(3,text="op")
 
-        self.tree.column(1,width=30)
+        self.tree.column(1,width=35)
         self.tree.column(2,width=50)
-        self.tree.column(3,width=30)
+        self.tree.column(3,width=35)
 
         self.tree.place(x=600,y=10)
 
@@ -1227,9 +1227,9 @@ class Main:
         self.treeB.heading(2,text="com")
         self.treeB.heading(3,text="op")
 
-        self.treeB.column(1,width=30)
+        self.treeB.column(1,width=35)
         self.treeB.column(2,width=50)
-        self.treeB.column(3,width=30)
+        self.treeB.column(3,width=35)
 
         self.treeB.place(x=600,y=10)
 
@@ -1252,9 +1252,9 @@ class Main:
         self.tree0.heading(2,text="com")
         self.tree0.heading(3,text="op")
 
-        self.tree0.column(1,width=30)
+        self.tree0.column(1,width=35)
         self.tree0.column(2,width=50)
-        self.tree0.column(3,width=30)
+        self.tree0.column(3,width=35)
 
         self.tree0.place(x=600,y=440)
 
@@ -1275,9 +1275,9 @@ class Main:
         self.tree0B.heading(2,text="com")
         self.tree0B.heading(3,text="op")
 
-        self.tree0B.column(1,width=30)
+        self.tree0B.column(1,width=35)
         self.tree0B.column(2,width=50)
-        self.tree0B.column(3,width=30)
+        self.tree0B.column(3,width=35)
 
         self.tree0B.place(x=600,y=440)
 
@@ -1850,9 +1850,9 @@ class Main:
         self.tree1.heading(2,text="com")
         self.tree1.heading(3,text="op")
 
-        self.tree1.column(1,width=30)
+        self.tree1.column(1,width=35)
         self.tree1.column(2,width=50)
-        self.tree1.column(3,width=30)
+        self.tree1.column(3,width=35)
         a = 600 - 150 * (par_num-1) / 2
         self.tree1.place(x=a,y=225)
 
@@ -1877,9 +1877,9 @@ class Main:
         self.tree1B.heading(2,text="com")
         self.tree1B.heading(3,text="op")
 
-        self.tree1B.column(1,width=30)
+        self.tree1B.column(1,width=35)
         self.tree1B.column(2,width=50)
-        self.tree1B.column(3,width=30)
+        self.tree1B.column(3,width=35)
         a = 600 - 150 * (par_num-1) / 2
         self.tree1B.place(x=a,y=225)
 
@@ -1902,9 +1902,9 @@ class Main:
         self.tree2.heading(2,text="com")
         self.tree2.heading(3,text="op")
 
-        self.tree2.column(1,width=30)
+        self.tree2.column(1,width=35)
         self.tree2.column(2,width=50)
-        self.tree2.column(3,width=30)
+        self.tree2.column(3,width=35)
         a = 750 - 150 * (par_num-1) / 2
         self.tree2.place(x=a,y=225)
 
@@ -1929,9 +1929,9 @@ class Main:
         self.tree2B.heading(2,text="com")
         self.tree2B.heading(3,text="op")
 
-        self.tree2B.column(1,width=30)
+        self.tree2B.column(1,width=35)
         self.tree2B.column(2,width=50)
-        self.tree2B.column(3,width=30)
+        self.tree2B.column(3,width=35)
         a = 750 - 150 * (par_num-1) / 2
         self.tree2B.place(x=a,y=225)
 
@@ -1954,9 +1954,9 @@ class Main:
         self.tree3.heading(2,text="com")
         self.tree3.heading(3,text="op")
 
-        self.tree3.column(1,width=30)
+        self.tree3.column(1,width=35)
         self.tree3.column(2,width=50)
-        self.tree3.column(3,width=30)
+        self.tree3.column(3,width=35)
         a = 900 - 150 * (par_num-1) / 2
         self.tree3.place(x=a,y=225)
 
@@ -1981,9 +1981,9 @@ class Main:
         self.tree3B.heading(2,text="com")
         self.tree3B.heading(3,text="op")
 
-        self.tree3B.column(1,width=30)
+        self.tree3B.column(1,width=35)
         self.tree3B.column(2,width=50)
-        self.tree3B.column(3,width=30)
+        self.tree3B.column(3,width=35)
         a = 900 - 150 * (par_num-1) / 2
         self.tree3B.place(x=a,y=225)
 
@@ -2006,9 +2006,9 @@ class Main:
         self.tree4.heading(2,text="com")
         self.tree4.heading(3,text="op")
 
-        self.tree4.column(1,width=30)
+        self.tree4.column(1,width=35)
         self.tree4.column(2,width=50)
-        self.tree4.column(3,width=30)
+        self.tree4.column(3,width=35)
         a = 1050 - 150 * (par_num-1) / 2
         self.tree4.place(x=a,y=225)
 
@@ -2033,9 +2033,9 @@ class Main:
         self.tree4B.heading(2,text="com")
         self.tree4B.heading(3,text="op")
 
-        self.tree4B.column(1,width=30)
+        self.tree4B.column(1,width=35)
         self.tree4B.column(2,width=50)
-        self.tree4B.column(3,width=30)
+        self.tree4B.column(3,width=35)
         a = 1050 - 150 * (par_num-1) / 2
         self.tree4B.place(x=a,y=225)
 
@@ -2058,9 +2058,9 @@ class Main:
         self.tree5.heading(2,text="com")
         self.tree5.heading(3,text="op")
 
-        self.tree5.column(1,width=30)
+        self.tree5.column(1,width=35)
         self.tree5.column(2,width=50)
-        self.tree5.column(3,width=30)
+        self.tree5.column(3,width=35)
         a = 1200 - 150 * (par_num-1) / 2
         self.tree5.place(x=a,y=225)
 
@@ -2085,9 +2085,9 @@ class Main:
         self.tree5B.heading(2,text="com")
         self.tree5B.heading(3,text="op")
 
-        self.tree5B.column(1,width=30)
+        self.tree5B.column(1,width=35)
         self.tree5B.column(2,width=50)
-        self.tree5B.column(3,width=30)
+        self.tree5B.column(3,width=35)
         a = 1200 - 150 * (par_num-1) / 2
         self.tree5B.place(x=a,y=225)
 
