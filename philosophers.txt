@@ -1,0 +1,79 @@
+var phil1;
+var phil2;
+var phil3;
+var fork1;
+var fork2;
+var fork3;
+phil1=0;
+phil2=0;
+phil3=0;
+fork1=0;
+fork2=0;
+fork3=0;
+par{
+    while (phil1==0) do
+        if (fork1==0) then
+            fork1=1;
+        else
+            skip;
+        fi;
+        if (fork2==0) then
+            fork2=1;
+        else
+            skip;
+        fi;
+        if (fork1==1 && fork2==1) then
+            phil1=1;
+            fork1=0;
+            fork2=0;
+        else
+            skip;
+        fi;
+    od;
+}{
+    while (phil2==0) do
+        if (fork2==0) then
+            fork2=2;
+        else
+            skip;
+        fi;
+        if (fork3==0) then
+            fork3=2;
+        else
+            skip;
+        fi;
+        if (fork2==2 && fork3==2) then
+            phil2=1;
+            fork2=0;
+            fork3=0;
+        else
+            skip;
+        fi;
+    od;
+}{
+    while (phil3==0) do
+        if (fork3==0) then
+            fork3=3;
+        else
+            skip;
+        fi;
+        if (fork1==0) then
+            fork1=3;
+        else
+            skip;
+        fi;
+        if (fork3==3 && fork1==3) then
+            phil3=1;
+            fork3=0;
+            fork1=0;
+        else
+            skip;
+        fi;
+    od;
+}
+remove fork3;
+remove fork2;
+remove fork1;
+remove phil3;
+remove phil2;
+remove phil1;
